@@ -31,10 +31,11 @@ const Portfolio = () => {
 
   const projects = [
     {
+ 
       id: 1,
       title: 'Predictive Price Model for Laptops',
       description: 'Machine learning model using R and tidymodels to predict laptop prices with Spark and Shiny dashboard.',
-      image: 'src/assets/datamining.jpg',
+      image: '/images/datamining.jpg',
       category: 'data-science',
       technologies: ['R', 'Tidymodels', 'Spark', 'Shiny', 'Machine Learning'],
       github: 'https://github.com/jaweher1925',
@@ -45,19 +46,18 @@ const Portfolio = () => {
       id: 2,
       title: 'StudyPedia Learning Platform',
       description: 'Full-stack Next.js application for learning aggregation and project collaboration with modern UI.',
-      image: 'src/assets/sqilco.png',
+      image: '/images/sqilco.png',
       category: 'web-development',
       technologies: ['Next.js', 'React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       github: 'https://github.com/jaweher1925',
       demo: 'https://studypedia-demo.com',
       featured: true
     },
-
     {
       id: 3,
       title: 'Mobile Car Rental Application',
       description: 'Android application for car rental with real-time booking and Node.js backend integration.',
-      image: 'src/assets/carrent.jpg',
+      image: '/images/carrent.jpg',
       category: 'mobile',
       technologies: ['Android Studio', 'Java', 'Node.js', 'SQLite', 'REST API'],
       github: 'https://github.com/jaweher1925/G-CarBook',
@@ -68,7 +68,7 @@ const Portfolio = () => {
       id: 4,
       title: 'Text Processing with Python',
       description: 'Advanced text processing system with inverted index and incidence matrix using NLTK.',
-      image: 'src/assets/python.jpg',
+      image: '/images/python.jpg',
       category: 'data-science',
       technologies: ['Python', 'NLTK', 'Pandas', 'NumPy', 'Text Mining'],
       github: 'https://github.com/jaweher1925',
@@ -79,7 +79,7 @@ const Portfolio = () => {
       id: 5,
       title: 'Education Platform with MCQs',
       description: 'Multilingual education platform with course management and interactive multiple-choice questions.',
-      image: 'src/assets/angular.jpg',
+      image: '/images/angular.jpg',
       category: 'education',
       technologies: ['React', 'Firebase', 'i18n', 'Material-UI', 'PWA'],
       github: 'https://github.com/jaweher1925',
@@ -90,7 +90,7 @@ const Portfolio = () => {
       id: 6,
       title: 'ChatBot with GPT API',
       description: 'Intelligent chatbot integration using OpenAI GPT API with Python backend.',
-      image: 'src/assets/python.jpg',
+      image: '/images/python.jpg',
       category: 'data-science',
       technologies: ['Python', 'OpenAI API', 'Flask', 'NLP', 'REST API'],
       github: 'https://github.com/jaweher1925',
@@ -101,241 +101,232 @@ const Portfolio = () => {
       id: 7,
       title: 'EUNOIA Academy Management',
       description: 'Complete management system with CRUD operations using Angular, MongoDB, and Express.js.',
-      image: 'src/assets/angular.jpg',
+      image: '/images/angular.jpg',
       category: 'web-development',
       technologies: ['Angular', 'Node.js', 'Express.js', 'MongoDB', 'Bootstrap'],
       github: 'https://github.com/jaweher1925',
       demo: null,
       featured: false
     },
-    /**design  */
+
+    /** Design */
     {
       id: 8,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/3.png',
+      image: '/images/logos/3.png',
       category: 'design',
       technologies: ['canva'],
       github: null,
-      demo: '',
+      demo: '/images/logos/3.png',
       featured: false
     },
-
     {
       id: 9,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/6.jpg',
+      image: '/images/logos/6.jpg',
       category: 'design',
       technologies: ['canva'],
       github: null,
-      demo: null,
+      demo:'/images/logos/6.jpg',
       featured: false
     },
     {
       id: 10,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/7.png',
+      image: '/images/logos/7.png',
       category: 'design',
       technologies: ['canva'],
       github: null,
-      demo: null,
+      demo:'/images/logos/7.png',
       featured: false
     },
     {
       id: 11,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/4.jpg',
+      image: '/images/logos/4.jpg',
       category: 'design',
       technologies: ['canva'],
       github: null,
-      demo: null,
+      demo:'/images/logos/4.jpg',
       featured: false
     },
     {
       id: 12,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/8.png',
+      image: '/images/logos/8.png',
       category: 'design',
       technologies: ['canva'],
       github: null,
-      demo: null,
+      demo:  '/images/logos/8.png',
       featured: false
     },
     {
       id: 13,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/9.png',
+      image: '/images/logos/9.png',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: '/images/logos/9.png',
       featured: false
     },
     {
       id: 14,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/10.png',
+      image: '/images/logos/10.png',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: '/images/logos/10.png',
       featured: false
     },
     {
       id: 15,
       title: 'Brand Logo Design',
       description: 'Created a modern and memorable logo for a startup.',
-      image: 'src/assets/logos/11.png',
+      image: '/images/logos/11.png',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: '/images/logos/11.png',
       featured: false
     },
 
-
-
-
-
-    /**presentation */
-
+    /** Presentations */
     {
       id: 16,
       title: 'Presentation projet PFE ',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pre1.png',
+      image: '/images/presentations/pre1.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-
-      {
+    {
       id: 17,
+      image: '/images/presentations/pre2.png',
       title: 'Presentation projet PFE ',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pre2.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-      {
+    {
       id: 18,
       title: 'Presentation projet PFE ',
+      image: '/images/presentations/pre3.png',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pre3.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-         {
+    {
       id: 19,
       title: 'Presentation projet PFE ',
+      image: '/images/presentations/pred4.png',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pred4.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-         {
+    {
       id: 20,
       title: 'Presentation projet PFE ',
+      image: '/images/presentations/pred5.png',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pred5.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-            {
+    {
       id: 21,
       title: 'Presentation projet PFE ',
+      image: '/images/presentations/pred6.png',
       description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pred6.png',
       category: 'education',
       technologies: ['Figma', 'Presentation', 'Video'],
       github: null,
       demo: '',
       featured: true
     },
-            {
-      id: 22,
-      title: 'Presentation projet PFE ',
-      description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
-      image: 'src/assets/presentations/pred7.png',
-      category: 'education',
-      technologies: ['Figma', 'Presentation', 'Video'],
-      github: null,
-      demo: '',
-      featured: true
-    },
-
-
-
-
-    /*posts */
     {
       id: 22,
+      title: 'Presentation projet PFE ',
+      image: '/images/presentations/pred7.png',
+      description: 'presentation designed to communicate the key aspects of my Final Year Project (PFE).',
+      category: 'education',
+      technologies: ['Figma', 'Presentation', 'Video'],
+      github: null,
+      demo: '',
+      featured: true
+    },
+
+    /** Posts */
+    {
+      id: 23,
       title: 'Social Media Poster Series "Edspace Academy"',
       description: 'A collection of posters created for marketing campaigns.',
-      image: '/src/assets/affiche/edspace.jpg',
+      image: '/images/affiche/edspace.jpg',
       category: 'design',
       technologies: ['Photoshop', 'Canva'],
       github: null,
-      demo: null,
+      demo: 'https://www.facebook.com/the.edspace',
       featured: false
     },
     {
-      id: 23,
+      id: 24,
       title: 'Social Media Poster Series "TPL CLUBS"',
       description: 'Logo and brand color system designed for a tech startup.',
-      image: '/src/assets/affiche/tpl.jpg',
+      image: '/images/affiche/tpl.jpg',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: 'https://www.facebook.com/tpl.clubs',
       featured: false
     },
-      {
-      id: 24,
+    {
+      id: 25,
       title: 'Social Media Poster Series "Musicarth.tn "',
       description: 'Logo and brand color system designed for a tech startup.',
-      image: '/src/assets/affiche/musicarth.jpg',
+      image: '/images/affiche/musicarth.jpg',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: 'https://www.instagram.com/musicarth.tn/',
       featured: false
     },
-      {
-      id: 25,
+    {
+      id: 26,
       title: 'Social Media Poster Series "Ruby Omra & Hajj"',
       description: 'Logo and brand color system designed for a tech startup.',
-      image: '/src/assets/affiche/yakout.jpg',
+      image: '/images/affiche/yakout.jpg',
       category: 'design',
       technologies: ['Illustrator', 'Figma'],
       github: null,
-      demo: null,
+      demo: '/images/affiche/الياقوت للسياحة و الاسفار.jpg',
       featured: true
     }
-
-
-
   ]
+
+
+  
 
   const filteredProjects = activeFilter === 'all'
     ? projects
